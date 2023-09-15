@@ -10,13 +10,7 @@ name = "python"
   runtime_version = "3.x.x"
 
 [[analyzers]]
-name = "shell"
-
-[[analyzers]]
 name = "go"
 
   [analyzers.meta]
   import_root = "github.com/HaoJiang8/cortex"
-
-[[analyzers]]
-name = "test-coverage"
